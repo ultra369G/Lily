@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌸</title>
+  <style>
+    :root {
+      --primary: #7E57C2;
+      --secondary: #26A69A;
+      --error: #EF5350;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+    #app {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 10px;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    #chat-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    #chat-history {
+      flex: 1;
+      padding: 15px;
+      overflow-y: auto;
+    }
+    .message {
+      margin: 10px 0;
+      padding: 10px 15px;
+      border-radius: 18px;
+      max-width: 80%;
+      word-break: break-word;
+    }
+    .user-msg {
+      background: var(--primary);
+      color: white;
+      margin-left: auto;
+    }
+    .ai-msg {
+      background: #EEEEEE;
+      margin-right: auto;
+    }
+    .train-msg {
+      background: var(--secondary);
+      color: white;
+      text-align: center;
+      margin: 10px auto;
+      cursor: pointer;
+    }
+    #input-area {
+      display: flex;
+      padding: 10px;
+      background: #f5f5f5;
+      border-top: 1px solid #ddd;
+    }
+    #user-input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      outline: none;
+    }
+    #send-btn {
+      margin-left: 10px;
+      padding: 10px 15px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .training-panel {
+      background: #E3F2FD;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>LILLY-🌸</h1>
+      <div id="status">Connecting...</div>
+    </header>
+
+    <div id="chat-container">
+      <div id="chat-history"></div>
+      
+      <div id="input-area">
+        <input type="text" id="user-input" placeholder="Type or teach me something...">
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const socket = new WebSocket(`ws://${window.location.hostname}:3000`);
+    let currentTraining = null;
+
+    // Connection handling
+    socket.onopen = () => {
+      document.getElementById('status').textContent = "🟢 Online";
+    };
+
+    socket.onerror = (error) => {
+      document.getElementById('status').textContent = "🔴 Connection Error";
+      console.error("WebSocket Error:", error);
+    };
+
+    // Message handling
+    function addMessage(text, sender, isTraining = false) {
+      const chat = document.getElementById('chat-history');
+      const msg = document.createElement('div');
+      msg.className = `message ${sender}-msg ${isTraining ? 'train-msg' : ''}`;
+      msg.textContent = text;
+      chat.appendChild(msg);
+      chat.scrollTop = chat.scrollHeight;
+      return msg;
+    }
+
+    function showTrainingPanel(question) {
+      const panel = document.createElement('div');
+      panel.className = 'training-panel';
+      panel.innerHTML = `
+        <p>Teach me how to respond to:</p>
+        <p><strong>"${question}"</strong></p>
+        <input type="text" id="training-response" placeholder="Correct answer...">
+        <button id="confirm-training">Save Knowledge</button>
+      `;
+      
+      const chat = document.getElementById('chat-history');
+      chat.appendChild(panel);
+      
+      document.getElementById('confirm-training').addEventListener('click', () => {
+        const answer = document.getElementById('training-response').value.trim();
+        if (answer) {
+          socket.send(JSON.stringify({
+            type: 'train',
+            data: {
+              question: question,
+              answer: answer
+            }
+          }));
+          panel.remove();
+          addMessage(`✓ Learned: "${question}" → "${answer}"`, 'system');
+        }
+      });
+    }
+
+    // Event listeners
+    document.getElementById('send-btn').addEventListener('click', sendMessage);
+    document.getElementById('user-input').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') sendMessage();
+    });
+
+    function sendMessage() {
+      const input = document.getElementById('user-input');
+      const message = input.value.trim();
+      
+      if (message) {
+        addMessage(message, 'user');
+        
+        // Check for training command
+        if (message.startsWith('learn:')) {
+          const parts = message.slice(6).split('=>');
+          if (parts.length === 2) {
+            socket.send(JSON.stringify({
+              type: 'train',
+              data: {
+                question: parts[0].trim(),
+                answer: parts[1].trim()
+              }
+            }));
+          }
+        } else {
+          // Normal query
+          socket.send(JSON.stringify({
+            type: 'query',
+            data: message,
+            learn: true
+          }));
+        }
+        
+        input.value = '';
+      }
+    }
+
+    // Handle server responses
+    socket.onmessage = (event) => {
+      const data = JSON.parse(event.data);
+      
+      if (data.type === 'response') {
+        addMessage(data.answer, 'ai');
+        
+        // Show training panel for low-confidence responses
+        if (data.confidence < 0.5) {
+          showTrainingPanel(data.originalQuery);
+        }
+      }
+      else if (data.type === 'training_result') {
+        console.log("Training successful");
+      }
+    };
+  </script>
+</body>
+</html>

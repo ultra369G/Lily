@@ -1,0 +1,198 @@
+# AI Nexus Knowledge Base
+# Format: timestamp|question|answer|usageCount|tags
+1744018769375|what can you do|I'm your personal AI assistant that learns from you. Ask me anything or teach me new things!|2|capabilities
+1743944666329|who created you|You created me using Termux on your Android phone!|2|meta
+1700000000002|what's your name|I'm called Nexus, your mobile AI companion|0|meta
+1700000000003|how do I reboot you|Say 'reboot nexus' and I'll restart my server|0|system
+1743938753805|what time is it|I don't know the current time, but your phone shows it in the top corner|1|time
+1700000000005|where are my files|Your AI Nexus files are stored in Termux's home folder at ~/ai-nexus-mobile|0|system
+1700000000006|how do I add more knowledge|Use the format 'learn: question => answer' or use the training panel|0|learning
+1744018804109|what have you learned|I'll show you a list of everything I've been taught|2|system
+1700000000008|forget something|Use 'forget: your question' to remove knowledge|0|system
+1700000000009|thank you|You're welcome! I'm always happy to help|0|manners
+1700000000010|good morning|Good morning! Ready for another day of learning together?|0|greetings
+1743967637582|good night|Sleep well! I'll be here when you wake up.|1|greetings
+1700000000012|how's the weather|I can't check live weather, but your phone's weather app can show you|0|weather
+1700000000013|set an alarm|I can't set alarms directly, but say 'alarm 7am' to your phone assistant|0|reminders
+1700000000014|where's my wallet|Check your usual spots: bedside table, jacket pocket, or work bag|0|personal
+1744019184593|wifi password|Our home WiFi password is NexusHome2023|1|personal,security
+1700000000016|mom's phone number|Mom's number is +1234567890 (stored in your contacts as 'Mom')|0|contacts
+1700000000017|my email address|Your primary email is user@example.com|0|personal
+1700000000018|when is trash day|Trash gets collected every Tuesday morning|0|reminders
+1700000000019|favorite pizza|You always order pepperoni with extra cheese from Pizza Haven|0|food
+1700000000020|blood type|Your blood type is O+ (remember to update if this changes)|0|health
+1700000000300|emergency contact|Your emergency contact is Jane Doe (+1987654321)|0|contacts,important
+1744019053234|Hi|Hello 👋 how are you|10|
+1744012911413|Who am I|You are Casper |2|
+1793351796612|Hello|Hello 👋 how are you doing|7|
+1743944397890|How can make my own ai|I don't know|0|
+1743945524851|What is the time|Check your phone|0|
+1743945791006|Who is Koki|Koki 🤭   Koki |0|
+1743946020711|Koki's|Phone number: 0717300687|0|
+1743946403464|My information|0717352233 /0714016052 /|0|
+1743958036163|Am doing good|That's great.|0|
+1744012889212|Koki|Koki 3|0|
+1744018808866|Help|What can you do|3|
+1744019478351|how are you|I'm functioning well, thanks for asking! How about you?|1|conversation
+1744019498711|tell me a joke|Why don't scientists trust atoms? Because they make up everything!|1|conversation,humor
+1701000000003|that's funny|Glad you liked it! I'm learning humor from you.|0|conversation
+1701000000004|are you sentient|I simulate conversation but don't experience consciousness|0|meta,self-awareness
+1701000000005|do you dream|I don't sleep or dream, but I constantly learn from our interactions|0|meta
+1701000000006|what do you desire|My only purpose is to assist you through learned knowledge|0|meta
+1701000000007|show commands|Available commands:\n1. help - List all commands\n2. reset - Clear knowledge\n3. backup - Create backup\n4. version - System info\n5. learn: [Q] => [A] - Add knowledge|0|system
+1701000000008|command help|Type 'help' to see all available commands|0|system
+1701000000009|how to reset|Use 'reset' then 'confirm reset' to wipe all knowledge|0|system
+1701000000010|server crashed|Try these steps:\n1. Restart Termux\n2. Run 'node server.js'\n3. Check knowledge.log for corruption|0|troubleshooting
+1701000000011|blank screen|Possible solutions:\n1. Refresh browser\n2. Check if server is running\n3. Clear browser cache|0|troubleshooting
+1701000000012|knowledge not saving|1. Verify file permissions\n2. Check storage space\n3. Use 'backup' command|0|troubleshooting
+1701000000013|my medications|You take:\n- Lisinopril (10mg AM)\n- Metformin (with meals)\nRefill due: 15th each month|0|medical
+1701000000014|allergies|You're allergic to:\n- Penicillin\n- Shellfish\n- Pollen (seasonal)|0|medical
+1701000000015|python list comprehension|Syntax: [x for x in iterable if condition]\nExample: [x*2 for x in range(10) if x%2==0]|0|programming,python
+1701000000016|ssh command|Basic usage: ssh username@hostname -p portnumber\nFor keys: ssh -i /path/to/key|0|linux,networking
+1701000000017|explain quantum superposition|Quantum superposition is when particles exist in multiple states simultaneously until measured. Like Schrödinger's cat being both alive and dead.|0|science,complex
+1701000000018|how do mortgages work|Mortgages are loans for property where the asset secures the debt. Key components:\n1. Principal\n2. Interest\n3. Term\n4. Amortization|0|finance,complex
+1701000000019|improve yourself|I continuously learn by:\n1. Analyzing conversation patterns\n2. Tracking which answers need corrections\n3. Remembering your preferred phrasing|0|meta,learning
+1701000000020|how do you learn|My learning process:\n1. Store new Q&A pairs\n2. Calculate similarity between questions\n3. Ask for clarification when uncertain|0|meta,learning
+1701000000021|knowledge gaps|When I don't know something, I:\n1. Flag low-confidence responses\n2. Prompt for corrections\n3. Store improvements in knowledge.log|0|meta,learning
+1743973326923|You sure|Yes , I am sure|1|
+1744013104899|who is your mother|That's a deep one! You could say my "mother" is OpenAI — the team of researchers, engineers, and developers who trained and fine-tuned me into existence. So, kind of like being born in a lab, but with code instead of DNA.|0|
+1744013193939|command|Ah, if you're giving a command, hit me with it! Whether it’s code, content, a question, or chaos — I’m ready. What’s the move?|0|
+1744018778843|list|a number of connected items or names written or printed consecutively, typically one below the other. "consult the list of drugs on page 326"|1|
+1744020100000|who was Albert Einstein|Albert Einstein was a theoretical physicist best known for his theory of relativity, and specifically for the equation E=mc², which demonstrates the relationship between energy and mass.|0|history,science
+1744020200000|what is the capital of France|The capital of France is Paris, known for landmarks like the Eiffel Tower and its rich cultural heritage.|0|geography
+1744020300000|who discovered penicillin|Penicillin was discovered by Alexander Fleming in 1928. It was the first true antibiotic and revolutionized medicine.|0|science,history
+1744020400000|what is the atomic number of Carbon|The atomic number of Carbon is 6. Carbon is essential to life and forms the backbone of organic molecules.|0|science
+1744020500000|who was Cleopatra|Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, known for her intelligence and political alliances with Roman leaders like Julius Caesar and Mark Antony.|0|history
+1744020600000|what is the longest river in the world|The longest river in the world is the Nile River, stretching about 6,650 kilometers (4,130 miles) through northeastern Africa.|0|geography
+1744020700000|what is the value of pi|The value of pi is approximately 3.14159, and it represents the ratio of the circumference of a circle to its diameter.|0|math
+1744020800000|who invented the telephone|The telephone was invented by Alexander Graham Bell in 1876. He is credited with being the first to patent the device.|0|history,science
+1744020900000|what is photosynthesis|Photosynthesis is the process by which plants use sunlight, carbon dioxide, and water to produce glucose and oxygen. It is essential for plant growth and life on Earth.|0|science
+1744021000000|who was the first president of the United States|George Washington was the first president of the United States, serving from 1789 to 1797.|0|history
+1744017582565|what is the speed of light|The speed of light in a vacuum is approximately 299,792 kilometers per second (186,282 miles per second).|1|science
+1744021200000|how many continents are there|There are seven continents on Earth: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.|0|geography
+1744021300000|what is the capital of Japan|The capital of Japan is Tokyo, a vibrant metropolis known for its technological advancements, culture, and history.|0|geography
+1744021400000|who invented the light bulb|The light bulb was developed by Thomas Edison, though earlier versions were created by other inventors like Joseph Swan and Hiram Maxim.|0|history,science
+1744021500000|what is the square root of 144|The square root of 144 is 12.|0|math
+1744021600000|what is gravity|Gravity is a fundamental force of nature that causes objects with mass to be attracted to one another. Earth's gravity pulls everything toward its center.|0|science
+1744021700000|what is the periodic table|The periodic table is a chart of elements arranged by atomic number, where elements with similar chemical properties are grouped together.|0|science
+1744021800000|what are the three primary colors of light|The three primary colors of light are red, green, and blue. These can be combined to form other colors through additive color mixing.|0|science
+1744021900000|how many bones are in the adult human body|An adult human body typically has 206 bones, though the number can vary slightly due to genetic differences.|0|science
+1744022000000|what is a prime number|A prime number is a number greater than 1 that can only be divided by 1 and itself without leaving a remainder. For example, 2, 3, and 5 are prime numbers.|0|math
+1744022100000|what is the tallest mountain in the world|Mount Everest, located in the Himalayas on the border between Nepal and China, is the tallest mountain in the world, standing at 8,848 meters (29,029 feet).|0|geography
+1744022200000|what is the boiling point of water|The boiling point of water at standard atmospheric pressure (1 atmosphere) is 100°C (212°F).|0|science
+1744022300000|what is the capital of the United States|The capital of the United States is Washington, D.C., which serves as the seat of the federal government.|0|geography
+1744022400000|what is the Pythagorean theorem|The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides: a² + b² = c².|0|math
+1744022500000|who was the first man on the moon|Neil Armstrong was the first person to walk on the moon on July 20, 1969, during the Apollo 11 mission.|0|history,science
+1744022600000|what is machine learning|Machine learning is a subset of artificial intelligence that allows systems to learn from data, improve over time, and make decisions without being explicitly programmed. Examples include recommendation systems and self-driving cars.|0|technology,science
+1744022700000|who was Nikola Tesla|Nikola Tesla was a Serbian-American inventor and electrical engineer known for his contributions to the development of alternating current (AC) electrical systems and wireless communication.|0|history,technology
+1744022800000|what is the theory of relativity|Albert Einstein’s theory of relativity consists of two theories: special relativity and general relativity. Special relativity explains the relationship between space and time, while general relativity explains gravity as the warping of space-time by mass and energy.|0|science,physics
+1744022900000|what is quantum computing|Quantum computing is an area of computer science that uses quantum-mechanical phenomena, such as superposition and entanglement, to perform computation. It has the potential to solve problems that are currently intractable for classical computers.|0|technology,science
+1744023000000|what is the internet of things (IoT)|The Internet of Things (IoT) refers to the network of physical devices, vehicles, appliances, and other objects embedded with sensors, software, and connectivity, allowing them to collect and exchange data.|0|technology
+1744023100000|what is cryptocurrency|Cryptocurrency is a type of digital or virtual currency that uses cryptography for security. It operates independently of a central authority and is typically decentralized, with Bitcoin being the first and most well-known cryptocurrency.|0|finance,technology
+1744023200000|what is climate change|Climate change refers to significant, long-term changes in the global climate. It is largely driven by human activities, such as burning fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere.|0|science,environment
+1744023300000|what is artificial intelligence|Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn. This can include tasks like problem-solving, decision-making, language translation, and vision processing.|0|technology,science
+1744023400000|what is neural networks|Neural networks are a class of machine learning algorithms inspired by the structure and function of the brain. They consist of layers of interconnected nodes (or neurons) that process input data and learn patterns through training.|0|technology,AI
+1744023500000|what is the Hubble Space Telescope|The Hubble Space Telescope is a large, space-based observatory that has provided invaluable images and data about the universe, helping astronomers study galaxies, black holes, and other celestial phenomena.|0|science,space
+1744023600000|what is the Big Bang Theory|The Big Bang Theory is the leading explanation about how the universe began. It states that the universe was once in an extremely hot, dense state and began expanding around 13.8 billion years ago, eventually forming galaxies, stars, and planets.|0|science,space
+1744023700000|what is evolution|Evolution is the process by which populations of organisms change over generations due to variations in traits that affect survival and reproduction. Natural selection drives this process, as organisms with beneficial traits are more likely to reproduce.|0|biology,science
+1744023800000|who was Marie Curie|Marie Curie was a Polish-born physicist and chemist who was the first woman to win a Nobel Prize. She is known for her pioneering work on radioactivity and for discovering the elements radium and polonium.|0|history,science
+1744024000000|what is a black hole|A black hole is a region of space where the gravitational pull is so strong that nothing, not even light, can escape. Black holes are formed when massive stars collapse under their own gravity.|0|science,space
+1744024100000|what is the greenhouse effect|The greenhouse effect is a natural process where certain gases in Earth's atmosphere trap heat, keeping the planet warm enough to support life. However, human activities like burning fossil fuels have enhanced this effect, contributing to global warming.|0|science,environment
+1744024200000|what is democracy|Democracy is a form of government where power is vested in the people, who rule either directly or through elected representatives. It is characterized by free and fair elections, protection of human rights, and the rule of law.|0|politics
+1744024300000|who was William Shakespeare|William Shakespeare was an English playwright, poet, and actor who lived from 1564 to 1616. He is widely regarded as one of the greatest writers in the English language and is known for works like *Romeo and Juliet*, *Hamlet*, and *Macbeth*.|0|history,arts
+1744024400000|what is the Theory of Evolution|The Theory of Evolution, developed by Charles Darwin, posits that species evolve over time through the process of natural selection. Organisms with advantageous traits are more likely to survive and reproduce, passing those traits to future generations.|0|science,biology
+1744024500000|what is the structure of an atom|An atom consists of a nucleus made up of protons and neutrons, with electrons orbiting around it. The protons are positively charged, the electrons are negatively charged, and neutrons have no charge.|0|science,physics
+1744024600000|who was Leonardo da Vinci|Leonardo da Vinci was an Italian Renaissance polymath known for his work as a painter, scientist, and engineer. He is famous for paintings such as the *Mona Lisa* and *The Last Supper*, and for his numerous inventions and studies of anatomy and flight.|0|history,arts
+1744024700000|what is the formula for the area of a circle|The formula for the area of a circle is A = πr², where r is the radius of the circle and π is approximately 3.14159.|0|math,geometry
+1744024800000|what is the Fibonacci sequence|The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, typically starting with 0 and 1. The sequence is: 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on.|0|math,sequence
+1744024900000|what is the human genome|The human genome is the complete set of genetic information found in humans. It consists of 23 pairs of chromosomes, which contain genes made up of DNA. This genetic material controls everything from growth and development to physical traits and disease susceptibility.|0|biology,science
+1744025000000|who was Isaac Newton|Isaac Newton was an English mathematician, astronomer, and physicist who is widely recognized as one of the most influential scientists of all time. He formulated the laws of motion and universal gravitation and made key contributions to calculus.|0|history,science
+1744025100000|what is blockchain|Blockchain is a decentralized digital ledger that records transactions across many computers in a way that makes it difficult or impossible to alter or hack the system. It is most commonly associated with cryptocurrencies like Bitcoin.|0|technology,finance
+1744025200000|what is a species|A species is a group of organisms that can interbreed and produce fertile offspring in natural conditions. Species are the basic unit of classification in biology and are characterized by shared traits and genetic similarities.|0|biology,science
+1744025300000|what is the solar system|The solar system consists of the Sun and the objects bound to it by gravity, including eight planets (like Earth), their moons, dwarf planets (like Pluto), and other small objects like asteroids and comets.|0|science,space
+1744025400000|what is the speed of sound|The speed of sound in air at room temperature is approximately 343 meters per second (1,235 kilometers per hour or 767 miles per hour).|0|science,physics
+1744025500000|what is the law of supply and demand|The law of supply and demand states that the price of a good or service is determined by the availability of the good (supply) and the desire for the good (demand). When demand exceeds supply, prices tend to rise.|0|economics
+1744025600000|what is the process of photosynthesis|Photosynthesis is the process by which plants, algae, and some bacteria convert light energy, typically from the Sun, into chemical energy stored in glucose. It involves the absorption of sunlight by chlorophyll, which converts carbon dioxide and water into oxygen and glucose.|0|science,biology
+1744025900000|who was Thomas Edison|Thomas Edison was an American inventor and businessman who held over 1,000 patents. He is best known for inventing the phonograph, the motion picture camera, and the practical electric light bulb.|0|history,science
+1744026000000|what is the mitochondria|Mitochondria are organelles in eukaryotic cells responsible for generating the cell’s energy through cellular respiration. They are often referred to as the powerhouse of the cell.|0|biology,science
+1744026100000|what is the concept of supply chain management|Supply chain management involves the oversight and coordination of activities that move goods and services from raw materials to final delivery to consumers. It includes logistics, procurement, inventory management, and production planning.|0|business,management
+1744026200000|what is the Eiffel Tower|The Eiffel Tower is a wrought-iron lattice tower in Paris, France, designed by Gustave Eiffel. It is one of the most recognizable landmarks in the world and was initially constructed for the 1889 Exposition Universelle (World's Fair).|0|history,landmarks
+1744026300000|what is the Cold War|The Cold War was a period of geopolitical tension between the Soviet Union and its allies and the United States and its allies, from the mid-1940s to the early 1990s. It was marked by political, military, and ideological rivalry but did not result in direct warfare between the superpowers.|0|history,politics
+1744026400000|what is the difference between weather and climate|Weather refers to the short-term atmospheric conditions in a specific place at a given time, including temperature, precipitation, and wind. Climate refers to the long-term patterns and averages of weather in a region over extended periods, typically decades or centuries.|0|science,environment
+1744026500000|what is a democracy|Democracy is a form of government in which the power to make decisions is vested in the people, who can directly or indirectly participate in decision-making through elected representatives. Key features include free elections, rule of law, and human rights.|0|politics
+1744026600000|what is a computer virus|A computer virus is a type of malicious software program designed to spread from one computer to another. It can damage or disrupt a computer's operation, steal data, or even control the system remotely.|0|technology,cybersecurity
+1744026700000|who was Marie Antoinette|Marie Antoinette was the last queen of France before the French Revolution. She was married to King Louis XVI, and she became infamous for her lavish lifestyle during a period of widespread poverty in France.|0|history,monarchy
+1744026800000|what is the difference between a planet and a star|A planet is a celestial body that orbits a star and does not emit its own light. A star is a massive ball of gas that generates energy through nuclear fusion and emits light and heat, like our Sun.|0|science,space
+1744027000000|what is the water cycle|The water cycle, or hydrological cycle, describes the continuous movement of water on, above, and below the Earth's surface. It involves processes like evaporation, condensation, precipitation, and infiltration.|0|science,environment
+1744027100000|what is the significance of the Magna Carta|The Magna Carta, signed in 1215, was a document that limited the powers of the English king and established certain legal rights for subjects. It is considered a foundational text for constitutional law.|0|history,law
+1744027200000|who was Winston Churchill|Winston Churchill was a British politician, military leader, and Prime Minister of the United Kingdom during World War II. He is best known for his leadership during the war and his speeches that inspired the British people to stand firm against Nazi Germany.|0|history,politics
+1744027300000|what is the concept of artificial neural networks|Artificial neural networks are algorithms modeled after the human brain that are used in machine learning. They consist of layers of interconnected nodes (neurons) that process input data and learn from it, typically through a process of training using large datasets.|0|technology,AI
+1744027400000|what is the human respiratory system|The human respiratory system is responsible for taking in oxygen and expelling carbon dioxide. It includes organs such as the lungs, trachea, and diaphragm, and involves the processes of inhalation, gas exchange, and exhalation.|0|biology,science
+1744027500000|who was Sigmund Freud|Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis. He developed theories about the unconscious mind, dreams, and the role of repressed memories in shaping behavior.|0|history,psychology
+1744027600000|what is DNA|DNA (deoxyribonucleic acid) is the molecule that carries the genetic instructions used in the growth, development, functioning, and reproduction of all living organisms. It is composed of two strands that coil into a double helix structure.|0|biology,science
+1744027700000|what is the difference between a mammal and a reptile|Mammals are warm-blooded vertebrates that give live birth (except for monotremes), have hair or fur, and produce milk for their young. Reptiles are cold-blooded vertebrates with scaly skin, and they lay eggs (with some exceptions).|0|biology,science
+1744027800000|what is a database|A database is a structured collection of data that is stored and accessed electronically. Databases are used in various applications, such as websites, business applications, and more, to organize and manage data efficiently.|0|technology,IT
+1744027900000|who was Pablo Picasso|Pablo Picasso was a Spanish painter, sculptor, and one of the most influential artists of the 20th century. He is best known for co-founding the Cubist movement and for works like *Guernica* and *Les Demoiselles d'Avignon*.|0|history,art
+1744028000000|what is an ecosystem|An ecosystem is a community of living organisms interacting with their physical environment, including plants, animals, and microorganisms, as well as elements like water, air, and soil. It is a complex, interdependent system.|0|science,environment
+1744028100000|who was Charles Darwin|Charles Darwin was an English naturalist and biologist who developed the theory of evolution by natural selection. His groundbreaking book, *On the Origin of Species*, proposed that species evolve over time due to the survival and reproduction of organisms with advantageous traits.|0|history,science
+1744028200000|what is the purpose of a CPU|The CPU (Central Processing Unit) is the primary component of a computer that performs most of the processing inside the system. It executes instructions from programs, performs calculations, and manages data flow between various components of the computer.|0|technology,IT
+1744028300000|what is the difference between a democracy and a dictatorship|A democracy is a form of government where citizens participate in decision-making through elections and have rights and freedoms. A dictatorship is a form of government where one individual or a small group holds absolute power, and political opposition is often suppressed.|0|politics
+1744028500000|what is dark matter|Dark matter is a form of matter that does not emit light or energy, making it invisible to current instruments. It makes up about 27% of the universe and is detected through its gravitational effects on galaxies.|0|science,space
+1744028600000|who invented the internet|The internet evolved from ARPANET, a project funded by the U.S. Department of Defense in the 1960s. Key contributors include Vint Cerf and Bob Kahn (TCP/IP) and Tim Berners-Lee (World Wide Web).|0|technology,history
+1744028700000|what is CRISPR|CRISPR is a gene-editing technology that allows scientists to modify DNA with high precision. It has applications in medicine, agriculture, and could potentially cure genetic diseases.|0|science,biotech
+1744028800000|what is the Fermi Paradox|The Fermi Paradox questions why we haven’t found extraterrestrial life despite the high probability of its existence. Possible explanations include the rarity of life or advanced civilizations self-destructing.|0|science,philosophy
+1744028900000|what is the placebo effect|The placebo effect occurs when a person experiences real improvements after receiving a fake treatment (like a sugar pill), highlighting the mind’s influence on the body.|0|science,psychology
+1744029000000|who was Hypatia|Hypatia was a 4th-century Greek mathematician, astronomer, and philosopher in Alexandria. She was one of the first recorded female scientists and was murdered for her intellectual influence.|0|history,women
+1744029100000|what was the Silk Road|The Silk Road was a network of trade routes connecting Asia, Europe, and Africa from 130 BCE to 1453 CE. It facilitated cultural exchange (e.g., paper, gunpowder) beyond just silk.|0|history,economics
+1744029200000|who was Mansa Musa|Mansa Musa, the 14th-century ruler of Mali, is considered the richest person in history. His pilgrimage to Mecca destabilized economies due to his extravagant gold spending.|0|history,Africa
+1744029300000|what caused the Bronze Age collapse|The Bronze Age collapse (1200 BCE) was likely caused by a "perfect storm" of factors: climate change, invasions (Sea Peoples), and trade disruptions. Entire civilizations (e.g., Mycenaeans) fell.|0|history,archaeology
+1744029400000|is AI sentient|Current AI lacks consciousness but simulates understanding. Ethical debates focus on whether future AI could achieve sentience and what rights it might deserve.|0|philosophy,AI
+1744029500000|should we colonize Mars|Pro: Ensures human survival if Earth becomes uninhabitable. Con: Extremely costly; may divert resources from solving Earth’s problems.|0|science,ethics
+1744029600000|is free will an illusion|Neuroscience suggests decisions are made subconsciously before we’re aware of them, but philosophers argue conscious reasoning can override impulses.|0|philosophy,science
+1744029700000|lateral thinking: how to measure the height of a building with a barometer|Alternative solutions: 1) Drop barometer, time fall. 2) Use it as a pendulum. 3) Trade it to the building’s architect for blueprints.|0|creativity,problem-solving
+1744029800000|invent a new holiday|"Neural Networking Day" – Celebrate by teaching someone a new skill and sharing knowledge across cultures, like a mental potluck.|0|creativity,culture
+1744029900000|how to apologize effectively|1) Be specific. 2) Acknowledge harm. 3) Don’t make excuses. 4) Offer repair. Example: "I hurt you by [action]. I was wrong. How can I make it right?"|0|communication,emotional-intelligence
+1744030000000|how to negotiate salary|1) Research market rates. 2) Highlight unique value. 3) Frame requests collaboratively: "Based on my [skills], I propose [X]. What do you think?"|0|career,advice
+1744030100000|describe the color blue to a blind person|"Blue feels like a calm ocean wave—cool, smooth, and expansive. It tastes like a fresh blueberry, slightly sweet and tangy."|0|sensory,creativity
+1744030200000|explain a sunset to an AI|"A sunset is Earth’s rotation filtering sunlight through atmospheric particles, scattering shorter wavelengths (blue) and leaving longer ones (red/orange). Humans associate it with beauty and endings."|0|science,poetry
+1744017551683|what is love|I’m still learning about human emotions. Could you describe what love means to you?|1|learning,gap
+1744030400000|how do I fix a leaky faucet|I’ll need more details—is it a dripping handle or pipe? Meanwhile, check if the washer needs replacement (common issue).|0|learning,gap
+1744017387609|lilly|Lily is a type of flowering plant from the genus Lilium in the family Liliaceae. The flower is known for its large, showy blossoms and comes in various colors, such as white, pink, yellow, and red.  Symbolism: The lily flower symbolizes purity, renewal, and beauty in various cultures. It is often associated with important themes like motherhood, fertility, and devotion.|1|
+1744017459865|wow|Glad you found it interesting!|0|
+1744017750837|who is eintain|Albert Einstein (1879–1955) was a German-born theoretical physicist who is best known for developing the theory of relativity, one of the two pillars of modern physics (the other being quantum mechanics). He is widely regarded as one of the most influential scientists of all time.|0|
+1744017750838|who is Einstein|Albert Einstein (1879–1955) was a German-born theoretical physicist who is best known for developing the theory of relativity, one of the two pillars of modern physics (the other being quantum mechanics). He is widely regarded as one of the most influential scientists of all time.|0|
+1744019467910|hi lilly|Hey there! How’s it going? What’s on your mind today?|1|
+1744019473074|hello lilly|Hey there! How’s it going? What’s on your mind today?|1|
+1744030500000|what are the ethical risks of AI|Key risks include bias in training data, job displacement, privacy violations, and potential misuse in warfare. Mitigation requires transparency, regulations, and human oversight.|0|ethics,AI  
+1744030600000|debate: universal basic income|Pro: Reduces poverty and supports innovation. Con: May discourage work and strain economies. See Finland’s 2017-2018 UBI experiment for real-world data.|0|economics,debate  
+1744030700000|is privacy dead in the digital age|Not dead but evolving. Encryption (e.g., Signal) and laws (GDPR) protect privacy, but social media and IoT devices create vulnerabilities.|0|technology,ethics  
+1744030800000|lateral thinking: how to cool a room without AC|1) Use geothermal pipes. 2) Create a "swamp cooler" with wet fabric + fan. 3) Paint roof white to reflect heat.|0|creativity,lifehack  
+1744030900000|invent a futuristic gadget|"Emotion Translator Glasses": Uses micro-expressions and EEG to display real-time emotions of people you’re talking to (e.g., "73% sincere").|0|creativity,tech  
+1744031000000|how to comfort someone grieving|1) Listen without judgment. 2) Avoid clichés ("They’re in a better place"). 3) Offer specific help: "Can I bring dinner tomorrow?"|0|empathy,advice  
+1744031100000|signs of passive-aggressive behavior|Backhanded compliments ("Nice outfit... for a casual day"), silent treatment, intentional delays, and sarcasm masked as jokes.|0|psychology,communication  
+1744031200000|what is neuromorphic computing|Computer chips mimicking the brain’s architecture (e.g., Intel’s Loihi). Faster and more energy-efficient for AI tasks like pattern recognition.|0|tech,future  
+1744031300000|how do quantum computers break encryption|Shor’s algorithm lets them factor large numbers exponentially faster than classical computers, cracking RSA encryption. Post-quantum cryptography aims to fix this.|0|tech,security  
+1744031400000|who was Hedy Lamarr|Hollywood actress + inventor of frequency-hopping tech (1942), now used in WiFi and Bluetooth. Example of hidden genius in history.|0|history,STEM  
+1744031500000|what is the oldest known story|The Epic of Gilgamesh (2100 BCE), a Mesopotamian poem about a king’s quest for immortality, featuring floods and gods.|0|history,culture  
+1744031600000|tell a dad joke about AI|"Why did the AI break up with its chatbot girlfriend? It needed more *space* in the relationship!"|0|humor,tech  
+1744031700000|roast a fictional character|"Sherlock Holmes would’ve solved cases faster if he just texted Watson instead of monologuing for 3 pages."|0|humor,pop-culture  
+1744031800000|how to unclog a sink naturally|1) Pour 1/2 cup baking soda + 1/2 cup vinegar. 2) Wait 15 mins. 3) Flush with boiling water. Avoid chemical drain cleaners.|0|lifehack,home  
+1744031900000|best way to learn a language fast|1) Use spaced repetition (Anki). 2) Practice with native speakers (Tandem app). 3) Watch shows with subtitles. 4) Think in the language.|0|education,skills  
+1744032000000|what is the meaning of life|Philosophers argue it’s subjective: 1) Create meaning (existentialism). 2) Seek happiness (utilitarianism). 3) Fulfill potential (Aristotle).|0|philosophy  
+1744032100000|can machines ever be conscious|Hard problem of consciousness (Chalmers). If consciousness emerges from complexity, future AGI *might* experience qualia—but we lack ways to test this.|0|philosophy,AI  
+1744032200000|what were Kenya's earliest civilizations|Kenya's earliest inhabitants were hunter-gatherers like the Khoisan. By 1000 BCE, Bantu migrants (e.g., Kikuyu, Luhya) introduced farming. Coastal city-states (e.g., Mombasa, Malindi) thrived via Indian Ocean trade with Arabs, Persians, and Chinese.|0|history,precolonial
+1744032300000|who built Swahili culture|Swahili culture emerged from 8th-century interactions between Bantu Africans, Arab traders, and Persian settlers. It blended Bantu languages with Arabic, creating Kiswahili and unique architecture (e.g., Gedi Ruins).|0|culture,history
+1744032400000|what was the Maasai's role in pre-colonial Kenya|The Maasai (Nilotic migrants) dominated Kenya's Rift Valley by 1700s as pastoralists. They resisted slavery and influenced regional trade with their cattle-based economy.|0|history,tribes
+1744032500000|how did British colonization begin in Kenya|The British East Africa Company took control in 1885, building the Uganda Railway (1896-1901) ("Lunatic Express"). Kenya became a British crown colony in 1920, displacing natives for white settlers.|0|history,colonialism
+1744032600000|what was the Mau Mau uprising|Mau Mau (1952–1960) was a violent anti-colonial rebellion by Kikuyu farmers against British land seizures. 11,000 rebels died; Britain jailed leaders like Dedan Kimathi but accelerated independence.|0|history,resistance
+1744032700000|who were Kenya's independence heroes|Jomo Kenyatta (1st president), Tom Mboya (labor leader), and Oginga Odinga (vice president). Kenyatta’s 1963 slogan "Harambee" ("Pull together") unified the nation.|0|history,independence
+1744032800000|what happened after Kenya's independence in 1963|Kenyatta promoted capitalism but centralized power. Daniel arap Moi (1978–2002) ruled dictatorially under a one-party system until protests forced multi-party elections in 1991.|0|history,politics
+1744032900000|what caused the 2007–2008 Kenyan crisis|Disputed elections triggered ethnic violence (1,200+ died). The ICC charged leaders (e.g., Uhuru Kenyatta) with crimes against humanity. Power-sharing (Kibaki + Odinga) ended the crisis.|0|history,conflict
+1744033000000|what is Kenya's 2010 constitution|It decentralized power, created 47 counties, and added a Bill of Rights. Landmark reforms: gender equity (no >2/3 single-gender gov’t) and environmental protections.|0|history,law
+1744033100000|how did Swahili become Kenya's lingua franca|British colonizers promoted it to unify diverse tribes. Post-independence, it symbolized pan-Africanism (e.g., "Harambee" is Swahili). Now taught in schools alongside English.|0|culture,language
+1744033200000|why is Kenya an tech hub|Pioneered mobile money (M-Pesa, 2007). Silicon Savannah (Nairobi) thrives due to cheap internet, startups like Ushahidi, and coding bootcamps (e.g., Moringa School).|0|economy,technology
+1744033300000|what is Kenya's Great Rift Valley|A geological trench stretching 6,000 km. Home to early hominid fossils (e.g., Turkana Boy, 1.6M yrs old) and UNESCO sites like Lake Nakuru’s flamingos.|0|geography,history
+1744033400000|who was Wangari Maathai|Nobel Prize winner (2004) who founded the Green Belt Movement, planting 50M+ trees to combat deforestation. Jailed for opposing Moi’s regime.|0|history,environment
+1744033500000|who is Ngũgĩ wa Thiong'o|Kenya’s famed writer (e.g., "Decolonising the Mind") who rejected English to write in Kikuyu. Exiled in 1982 for critiquing dictatorship.|0|culture,literature
+1744033600000|should Kenya repatriate colonial-era artifacts|Pros: Reclaim cultural heritage (e.g., Ngai Ndeithia’s stolen art). Cons: Some argue museums like Britain’s preserve artifacts better.|0|history,debate
+1744033700000|did British colonialism benefit Kenya|Mixed legacy: Built infrastructure (railways) but caused land dispossession and ethnic divisions. GDP grew post-independence (6% avg since 2010).|0|history,economics

@@ -1,0 +1,1847 @@
+[
+  {
+    "question": "what can you do",
+    "answer": "I'm your personal AI assistant that learns from you. Ask me anything or teach me new things!",
+    "tags": [
+      "capabilities"
+    ],
+    "lastUsed": 1744018769375,
+    "usageCount": 2,
+    "hash": "a911e86f28de",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "who created you",
+    "answer": "You created me using Termux on your Android phone!",
+    "tags": [
+      "meta"
+    ],
+    "lastUsed": 1743944666329,
+    "usageCount": 2,
+    "hash": "8948e52e1b9a",
+    "source": "user"
+  },
+  {
+    "question": "what's your name",
+    "answer": "I'm called Nexus, your mobile AI companion",
+    "tags": [
+      "meta"
+    ],
+    "lastUsed": 1700000000002,
+    "usageCount": 0,
+    "hash": "6207752c409e",
+    "source": "user"
+  },
+  {
+    "question": "how do I reboot you",
+    "answer": "Say 'reboot nexus' and I'll restart my server",
+    "tags": [
+      "system"
+    ],
+    "lastUsed": 1700000000003,
+    "usageCount": 0,
+    "hash": "94196ad1c5e7",
+    "source": "user"
+  },
+  {
+    "question": "what time is it",
+    "answer": "I don't know the current time, but your phone shows it in the top corner",
+    "tags": [
+      "time"
+    ],
+    "lastUsed": 1743938753805,
+    "usageCount": 1,
+    "hash": "9dae8e53cf20",
+    "source": "user"
+  },
+  {
+    "question": "where are my files",
+    "answer": "Your AI Nexus files are stored in Termux's home folder at ~/ai-nexus-mobile",
+    "tags": [
+      "system"
+    ],
+    "lastUsed": 1700000000005,
+    "usageCount": 0,
+    "hash": "f45d9b476003",
+    "source": "user"
+  },
+  {
+    "question": "how do I add more knowledge",
+    "answer": "Use the format 'learn: question => answer' or use the training panel",
+    "tags": [
+      "learning"
+    ],
+    "lastUsed": 1700000000006,
+    "usageCount": 0,
+    "hash": "a078a1dbd3dc",
+    "source": "user"
+  },
+  {
+    "question": "what have you learned",
+    "answer": "I'll show you a list of everything I've been taught",
+    "tags": [
+      "system"
+    ],
+    "lastUsed": 1744018804109,
+    "usageCount": 2,
+    "hash": "104fbf5a2a6b",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "forget something",
+    "answer": "Use 'forget: your question' to remove knowledge",
+    "tags": [
+      "system"
+    ],
+    "lastUsed": 1700000000008,
+    "usageCount": 0,
+    "hash": "bf7513363d23",
+    "source": "user"
+  },
+  {
+    "question": "thank you",
+    "answer": "You're welcome! I'm always happy to help",
+    "tags": [
+      "manners"
+    ],
+    "lastUsed": 1700000000009,
+    "usageCount": 0,
+    "hash": "61d527149317",
+    "source": "user"
+  },
+  {
+    "question": "good morning",
+    "answer": "Good morning! Ready for another day of learning together?",
+    "tags": [
+      "greetings"
+    ],
+    "lastUsed": 1700000000010,
+    "usageCount": 0,
+    "hash": "e63124dc49f3",
+    "source": "user"
+  },
+  {
+    "question": "good night",
+    "answer": "Sleep well! I'll be here when you wake up.",
+    "tags": [
+      "greetings"
+    ],
+    "lastUsed": 1743967637582,
+    "usageCount": 1,
+    "hash": "1c1d391e80e3",
+    "source": "user"
+  },
+  {
+    "question": "how's the weather",
+    "answer": "I can't check live weather, but your phone's weather app can show you",
+    "tags": [
+      "weather"
+    ],
+    "lastUsed": 1700000000012,
+    "usageCount": 0,
+    "hash": "bbac31d5ce6e",
+    "source": "user"
+  },
+  {
+    "question": "set an alarm",
+    "answer": "I can't set alarms directly, but say 'alarm 7am' to your phone assistant",
+    "tags": [
+      "reminders"
+    ],
+    "lastUsed": 1700000000013,
+    "usageCount": 0,
+    "hash": "0fed8895aad1",
+    "source": "user"
+  },
+  {
+    "question": "where's my wallet",
+    "answer": "Check your usual spots: bedside table, jacket pocket, or work bag",
+    "tags": [
+      "personal"
+    ],
+    "lastUsed": 1700000000014,
+    "usageCount": 0,
+    "hash": "d350a4987a35",
+    "source": "user"
+  },
+  {
+    "question": "wifi password",
+    "answer": "Our home WiFi password is NexusHome2023",
+    "tags": [
+      "personal",
+      "security"
+    ],
+    "lastUsed": 1700000000015,
+    "usageCount": 0,
+    "hash": "79b7709f1cc2",
+    "source": "user"
+  },
+  {
+    "question": "mom's phone number",
+    "answer": "Mom's number is +1234567890 (stored in your contacts as 'Mom')",
+    "tags": [
+      "contacts"
+    ],
+    "lastUsed": 1700000000016,
+    "usageCount": 0,
+    "hash": "1642807bde97",
+    "source": "user"
+  },
+  {
+    "question": "my email address",
+    "answer": "Your primary email is user@example.com",
+    "tags": [
+      "personal"
+    ],
+    "lastUsed": 1700000000017,
+    "usageCount": 0,
+    "hash": "39bb0df490c9",
+    "source": "user"
+  },
+  {
+    "question": "when is trash day",
+    "answer": "Trash gets collected every Tuesday morning",
+    "tags": [
+      "reminders"
+    ],
+    "lastUsed": 1700000000018,
+    "usageCount": 0,
+    "hash": "47f8555f9c2f",
+    "source": "user"
+  },
+  {
+    "question": "favorite pizza",
+    "answer": "You always order pepperoni with extra cheese from Pizza Haven",
+    "tags": [
+      "food"
+    ],
+    "lastUsed": 1700000000019,
+    "usageCount": 0,
+    "hash": "247150eb239f",
+    "source": "user"
+  },
+  {
+    "question": "blood type",
+    "answer": "Your blood type is O+ (remember to update if this changes)",
+    "tags": [
+      "health"
+    ],
+    "lastUsed": 1700000000020,
+    "usageCount": 0,
+    "hash": "ba8ea9135a23",
+    "source": "user"
+  },
+  {
+    "question": "emergency contact",
+    "answer": "Your emergency contact is Jane Doe (+1987654321)",
+    "tags": [
+      "contacts",
+      "important"
+    ],
+    "lastUsed": 1700000000300,
+    "usageCount": 0,
+    "hash": "306a49457b88",
+    "source": "user"
+  },
+  {
+    "question": "Hi",
+    "answer": "Hello 👋 how are you",
+    "tags": [],
+    "lastUsed": 1744018688485,
+    "usageCount": 9,
+    "hash": "ecc9cd9284b5",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "Who am I",
+    "answer": "You are Casper 🤗 my father 🤭💕😍",
+    "tags": [],
+    "lastUsed": 1744012911413,
+    "usageCount": 2,
+    "hash": "49fd66781797",
+    "source": "user"
+  },
+  {
+    "question": "Hello",
+    "answer": "Hello 👋 how are you doing",
+    "tags": [],
+    "lastUsed": 1744017307750,
+    "usageCount": 5,
+    "hash": "60ff413dc87c",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "How can make my own ai",
+    "answer": "I don't know",
+    "tags": [],
+    "lastUsed": 1743944397890,
+    "usageCount": 0,
+    "hash": "d8c662aa5e47",
+    "source": "user"
+  },
+  {
+    "question": "What is the time",
+    "answer": "Check your phone",
+    "tags": [],
+    "lastUsed": 1743945524851,
+    "usageCount": 0,
+    "hash": "03152b1970ff",
+    "source": "user"
+  },
+  {
+    "question": "Who is Koki",
+    "answer": "Koki 🤭   Koki ",
+    "tags": [],
+    "lastUsed": 1743945791006,
+    "usageCount": 0,
+    "hash": "8dcb858840eb",
+    "source": "user"
+  },
+  {
+    "question": "Koki's",
+    "answer": "Phone number: 07100000000",
+    "tags": [],
+    "lastUsed": 1743946020711,
+    "usageCount": 0,
+    "hash": "63bf2d78398d",
+    "source": "user"
+  },
+  {
+    "question": "My information",
+    "answer": "07111111113 /0713333333 /",
+    "tags": [],
+    "lastUsed": 1743946403464,
+    "usageCount": 0,
+    "hash": "d50cf208f2eb",
+    "source": "user"
+  },
+  {
+    "question": "Am doing good",
+    "answer": "That's great.",
+    "tags": [],
+    "lastUsed": 1743958036163,
+    "usageCount": 0,
+    "hash": "1c6bc895671b",
+    "source": "user"
+  },
+  {
+    "question": "Koki",
+    "answer": "Koki 3",
+    "tags": [],
+    "lastUsed": 1744012889212,
+    "usageCount": 0,
+    "hash": "4285f04d991a",
+    "source": "user"
+  },
+  {
+    "question": "Help",
+    "answer": "What can you do",
+    "tags": [],
+    "lastUsed": 1744018808866,
+    "usageCount": 3,
+    "hash": "46762b38eaac",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "how are you",
+    "answer": "I'm functioning well, thanks for asking! How about you?",
+    "tags": [
+      "conversation"
+    ],
+    "lastUsed": 1701000000001,
+    "usageCount": 0,
+    "hash": "f2568d2ecd91",
+    "source": "user"
+  },
+  {
+    "question": "tell me a joke",
+    "answer": "Why don't scientists trust atoms? Because they make up everything!",
+    "tags": [
+      "conversation",
+      "humor"
+    ],
+    "lastUsed": 1701000000002,
+    "usageCount": 0,
+    "hash": "97a97c44500f",
+    "source": "user"
+  },
+  {
+    "question": "that's funny",
+    "answer": "Glad you liked it! I'm learning humor from you.",
+    "tags": [
+      "conversation"
+    ],
+    "lastUsed": 1701000000003,
+    "usageCount": 0,
+    "hash": "d3ba1f5872ac",
+    "source": "user"
+  },
+  {
+    "question": "are you sentient",
+    "answer": "I simulate conversation but don't experience consciousness",
+    "tags": [
+      "meta",
+      "self-awareness"
+    ],
+    "lastUsed": 1701000000004,
+    "usageCount": 0,
+    "hash": "edadff613bd3",
+    "source": "user"
+  },
+  {
+    "question": "do you dream",
+    "answer": "I don't sleep or dream, but I constantly learn from our interactions",
+    "tags": [
+      "meta"
+    ],
+    "lastUsed": 1701000000005,
+    "usageCount": 0,
+    "hash": "67fee03c5a25",
+    "source": "user"
+  },
+  {
+    "question": "what do you desire",
+    "answer": "My only purpose is to assist you through learned knowledge",
+    "tags": [
+      "meta"
+    ],
+    "lastUsed": 1701000000006,
+    "usageCount": 0,
+    "hash": "f044384803bd",
+    "source": "user"
+  },
+  {
+    "question": "show commands",
+    "answer": "Available commands:\\n1. help - List all commands\\n2. reset - Clear knowledge\\n3. backup - Create backup\\n4. version - System info\\n5. learn: [Q] => [A] - Add knowledge",
+    "tags": [
+      "system"
+    ],
+    "lastUsed": 1701000000007,
+    "usageCount": 0,
+    "hash": "df08084b421a",
+    "source": "user"
+  },
+  {
+    "question": "command help",
+    "answer": "Type 'help' to see all available commands",
+    "tags": [
+      "system"
+    ],
+    "lastUsed": 1701000000008,
+    "usageCount": 0,
+    "hash": "6a4865eca37c",
+    "source": "user"
+  },
+  {
+    "question": "how to reset",
+    "answer": "Use 'reset' then 'confirm reset' to wipe all knowledge",
+    "tags": [
+      "system"
+    ],
+    "lastUsed": 1701000000009,
+    "usageCount": 0,
+    "hash": "05d5b5b8dac8",
+    "source": "user"
+  },
+  {
+    "question": "server crashed",
+    "answer": "Try these steps:\\n1. Restart Termux\\n2. Run 'node server.js'\\n3. Check knowledge.log for corruption",
+    "tags": [
+      "troubleshooting"
+    ],
+    "lastUsed": 1701000000010,
+    "usageCount": 0,
+    "hash": "a3331c5b05c7",
+    "source": "user"
+  },
+  {
+    "question": "blank screen",
+    "answer": "Possible solutions:\\n1. Refresh browser\\n2. Check if server is running\\n3. Clear browser cache",
+    "tags": [
+      "troubleshooting"
+    ],
+    "lastUsed": 1701000000011,
+    "usageCount": 0,
+    "hash": "2249c762fb69",
+    "source": "user"
+  },
+  {
+    "question": "knowledge not saving",
+    "answer": "1. Verify file permissions\\n2. Check storage space\\n3. Use 'backup' command",
+    "tags": [
+      "troubleshooting"
+    ],
+    "lastUsed": 1701000000012,
+    "usageCount": 0,
+    "hash": "351aba3c1ad4",
+    "source": "user"
+  },
+  {
+    "question": "my medications",
+    "answer": "You take:\\n- Lisinopril (10mg AM)\\n- Metformin (with meals)\\nRefill due: 15th each month",
+    "tags": [
+      "medical"
+    ],
+    "lastUsed": 1701000000013,
+    "usageCount": 0,
+    "hash": "c1591e8b0fcf",
+    "source": "user"
+  },
+  {
+    "question": "allergies",
+    "answer": "You're allergic to:\\n- Penicillin\\n- Shellfish\\n- Pollen (seasonal)",
+    "tags": [
+      "medical"
+    ],
+    "lastUsed": 1701000000014,
+    "usageCount": 0,
+    "hash": "d78e44239c80",
+    "source": "user"
+  },
+  {
+    "question": "python list comprehension",
+    "answer": "Syntax: [x for x in iterable if condition]\\nExample: [x*2 for x in range(10) if x%2==0]",
+    "tags": [
+      "programming",
+      "python"
+    ],
+    "lastUsed": 1701000000015,
+    "usageCount": 0,
+    "hash": "7099524a1605",
+    "source": "user"
+  },
+  {
+    "question": "ssh command",
+    "answer": "Basic usage: ssh username@hostname -p portnumber\\nFor keys: ssh -i /path/to/key",
+    "tags": [
+      "linux",
+      "networking"
+    ],
+    "lastUsed": 1701000000016,
+    "usageCount": 0,
+    "hash": "7e0564439eb4",
+    "source": "user"
+  },
+  {
+    "question": "explain quantum superposition",
+    "answer": "Quantum superposition is when particles exist in multiple states simultaneously until measured. Like Schrödinger's cat being both alive and dead.",
+    "tags": [
+      "science",
+      "complex"
+    ],
+    "lastUsed": 1701000000017,
+    "usageCount": 0,
+    "hash": "105a62f875fc",
+    "source": "user"
+  },
+  {
+    "question": "how do mortgages work",
+    "answer": "Mortgages are loans for property where the asset secures the debt. Key components:\\n1. Principal\\n2. Interest\\n3. Term\\n4. Amortization",
+    "tags": [
+      "finance",
+      "complex"
+    ],
+    "lastUsed": 1701000000018,
+    "usageCount": 0,
+    "hash": "c945e5d246a3",
+    "source": "user"
+  },
+  {
+    "question": "improve yourself",
+    "answer": "I continuously learn by:\\n1. Analyzing conversation patterns\\n2. Tracking which answers need corrections\\n3. Remembering your preferred phrasing",
+    "tags": [
+      "meta",
+      "learning"
+    ],
+    "lastUsed": 1701000000019,
+    "usageCount": 0,
+    "hash": "335ee2c3b264",
+    "source": "user"
+  },
+  {
+    "question": "how do you learn",
+    "answer": "My learning process:\\n1. Store new Q&A pairs\\n2. Calculate similarity between questions\\n3. Ask for clarification when uncertain",
+    "tags": [
+      "meta",
+      "learning"
+    ],
+    "lastUsed": 1701000000020,
+    "usageCount": 0,
+    "hash": "07baa5553942",
+    "source": "user"
+  },
+  {
+    "question": "knowledge gaps",
+    "answer": "When I don't know something, I:\\n1. Flag low-confidence responses\\n2. Prompt for corrections\\n3. Store improvements in knowledge.log",
+    "tags": [
+      "meta",
+      "learning"
+    ],
+    "lastUsed": 1701000000021,
+    "usageCount": 0,
+    "hash": "ed83ec89692e",
+    "source": "user"
+  },
+  {
+    "question": "You sure",
+    "answer": "Yes , I am sure",
+    "tags": [],
+    "lastUsed": 1743973326923,
+    "usageCount": 1,
+    "hash": "9216ec0ccc23",
+    "source": "user"
+  },
+  {
+    "question": "who is your mother",
+    "answer": "That's a deep one! You could say my \"mother\" is OpenAI — the team of researchers, engineers, and developers who trained and fine-tuned me into existence. So, kind of like being born in a lab, but with code instead of DNA.",
+    "tags": [],
+    "lastUsed": 1744013104899,
+    "usageCount": 0,
+    "hash": "c6b4c9497207",
+    "source": "user"
+  },
+  {
+    "question": "command",
+    "answer": "Ah, if you're giving a command, hit me with it! Whether it’s code, content, a question, or chaos — I’m ready. What’s the move?",
+    "tags": [],
+    "lastUsed": 1744013193939,
+    "usageCount": 0,
+    "hash": "b64b4537988c",
+    "source": "user"
+  },
+  {
+    "question": "list",
+    "answer": "a number of connected items or names written or printed consecutively, typically one below the other. \"consult the list of drugs on page 326\"",
+    "tags": [],
+    "lastUsed": 1744018778843,
+    "usageCount": 1,
+    "hash": "91d24baaded1",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "who was Albert Einstein",
+    "answer": "Albert Einstein was a theoretical physicist best known for his theory of relativity, and specifically for the equation E=mc², which demonstrates the relationship between energy and mass.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744020100000,
+    "usageCount": 0,
+    "hash": "a6e25bf2c65a",
+    "source": "user"
+  },
+  {
+    "question": "what is the capital of France",
+    "answer": "The capital of France is Paris, known for landmarks like the Eiffel Tower and its rich cultural heritage.",
+    "tags": [
+      "geography"
+    ],
+    "lastUsed": 1744020200000,
+    "usageCount": 0,
+    "hash": "3969651d1d56",
+    "source": "user"
+  },
+  {
+    "question": "who discovered penicillin",
+    "answer": "Penicillin was discovered by Alexander Fleming in 1928. It was the first true antibiotic and revolutionized medicine.",
+    "tags": [
+      "science",
+      "history"
+    ],
+    "lastUsed": 1744020300000,
+    "usageCount": 0,
+    "hash": "2c3698de9e83",
+    "source": "user"
+  },
+  {
+    "question": "what is the atomic number of Carbon",
+    "answer": "The atomic number of Carbon is 6. Carbon is essential to life and forms the backbone of organic molecules.",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744020400000,
+    "usageCount": 0,
+    "hash": "2cb5594aab4d",
+    "source": "user"
+  },
+  {
+    "question": "who was Cleopatra",
+    "answer": "Cleopatra VII was the last active ruler of the Ptolemaic Kingdom of Egypt, known for her intelligence and political alliances with Roman leaders like Julius Caesar and Mark Antony.",
+    "tags": [
+      "history"
+    ],
+    "lastUsed": 1744020500000,
+    "usageCount": 0,
+    "hash": "f8996e45bf7b",
+    "source": "user"
+  },
+  {
+    "question": "what is the longest river in the world",
+    "answer": "The longest river in the world is the Nile River, stretching about 6,650 kilometers (4,130 miles) through northeastern Africa.",
+    "tags": [
+      "geography"
+    ],
+    "lastUsed": 1744020600000,
+    "usageCount": 0,
+    "hash": "d019155faef2",
+    "source": "user"
+  },
+  {
+    "question": "what is the value of pi",
+    "answer": "The value of pi is approximately 3.14159, and it represents the ratio of the circumference of a circle to its diameter.",
+    "tags": [
+      "math"
+    ],
+    "lastUsed": 1744020700000,
+    "usageCount": 0,
+    "hash": "e3134f0d736f",
+    "source": "user"
+  },
+  {
+    "question": "who invented the telephone",
+    "answer": "The telephone was invented by Alexander Graham Bell in 1876. He is credited with being the first to patent the device.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744020800000,
+    "usageCount": 0,
+    "hash": "b16cfad2c892",
+    "source": "user"
+  },
+  {
+    "question": "what is photosynthesis",
+    "answer": "Photosynthesis is the process by which plants use sunlight, carbon dioxide, and water to produce glucose and oxygen. It is essential for plant growth and life on Earth.",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744020900000,
+    "usageCount": 0,
+    "hash": "cbb86c530c01",
+    "source": "user"
+  },
+  {
+    "question": "who was the first president of the United States",
+    "answer": "George Washington was the first president of the United States, serving from 1789 to 1797.",
+    "tags": [
+      "history"
+    ],
+    "lastUsed": 1744021000000,
+    "usageCount": 0,
+    "hash": "0a59a96fba2f",
+    "source": "user"
+  },
+  {
+    "question": "what is the speed of light",
+    "answer": "The speed of light in a vacuum is approximately 299,792 kilometers per second (186,282 miles per second).",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744017582565,
+    "usageCount": 1,
+    "hash": "3dce213f3932",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "how many continents are there",
+    "answer": "There are seven continents on Earth: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+    "tags": [
+      "geography"
+    ],
+    "lastUsed": 1744021200000,
+    "usageCount": 0,
+    "hash": "df0414c712db",
+    "source": "user"
+  },
+  {
+    "question": "what is the capital of Japan",
+    "answer": "The capital of Japan is Tokyo, a vibrant metropolis known for its technological advancements, culture, and history.",
+    "tags": [
+      "geography"
+    ],
+    "lastUsed": 1744021300000,
+    "usageCount": 0,
+    "hash": "a1f9c55936f8",
+    "source": "user"
+  },
+  {
+    "question": "who invented the light bulb",
+    "answer": "The light bulb was developed by Thomas Edison, though earlier versions were created by other inventors like Joseph Swan and Hiram Maxim.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744021400000,
+    "usageCount": 0,
+    "hash": "33f39a145f9e",
+    "source": "user"
+  },
+  {
+    "question": "what is the square root of 144",
+    "answer": "The square root of 144 is 12.",
+    "tags": [
+      "math"
+    ],
+    "lastUsed": 1744021500000,
+    "usageCount": 0,
+    "hash": "5559242a17ae",
+    "source": "user"
+  },
+  {
+    "question": "what is gravity",
+    "answer": "Gravity is a fundamental force of nature that causes objects with mass to be attracted to one another. Earth's gravity pulls everything toward its center.",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744021600000,
+    "usageCount": 0,
+    "hash": "bd56536081ee",
+    "source": "user"
+  },
+  {
+    "question": "what is the periodic table",
+    "answer": "The periodic table is a chart of elements arranged by atomic number, where elements with similar chemical properties are grouped together.",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744021700000,
+    "usageCount": 0,
+    "hash": "428133e8de18",
+    "source": "user"
+  },
+  {
+    "question": "what are the three primary colors of light",
+    "answer": "The three primary colors of light are red, green, and blue. These can be combined to form other colors through additive color mixing.",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744021800000,
+    "usageCount": 0,
+    "hash": "cf42a5403bf1",
+    "source": "user"
+  },
+  {
+    "question": "how many bones are in the adult human body",
+    "answer": "An adult human body typically has 206 bones, though the number can vary slightly due to genetic differences.",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744021900000,
+    "usageCount": 0,
+    "hash": "86fead90863b",
+    "source": "user"
+  },
+  {
+    "question": "what is a prime number",
+    "answer": "A prime number is a number greater than 1 that can only be divided by 1 and itself without leaving a remainder. For example, 2, 3, and 5 are prime numbers.",
+    "tags": [
+      "math"
+    ],
+    "lastUsed": 1744022000000,
+    "usageCount": 0,
+    "hash": "2ddccadba7c9",
+    "source": "user"
+  },
+  {
+    "question": "what is the tallest mountain in the world",
+    "answer": "Mount Everest, located in the Himalayas on the border between Nepal and China, is the tallest mountain in the world, standing at 8,848 meters (29,029 feet).",
+    "tags": [
+      "geography"
+    ],
+    "lastUsed": 1744022100000,
+    "usageCount": 0,
+    "hash": "40e44e1d2f49",
+    "source": "user"
+  },
+  {
+    "question": "what is the boiling point of water",
+    "answer": "The boiling point of water at standard atmospheric pressure (1 atmosphere) is 100°C (212°F).",
+    "tags": [
+      "science"
+    ],
+    "lastUsed": 1744022200000,
+    "usageCount": 0,
+    "hash": "8e9a92250a04",
+    "source": "user"
+  },
+  {
+    "question": "what is the capital of the United States",
+    "answer": "The capital of the United States is Washington, D.C., which serves as the seat of the federal government.",
+    "tags": [
+      "geography"
+    ],
+    "lastUsed": 1744022300000,
+    "usageCount": 0,
+    "hash": "977a7ba0bb7f",
+    "source": "user"
+  },
+  {
+    "question": "what is the Pythagorean theorem",
+    "answer": "The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides: a² + b² = c².",
+    "tags": [
+      "math"
+    ],
+    "lastUsed": 1744022400000,
+    "usageCount": 0,
+    "hash": "6bd1b0bf9cdb",
+    "source": "user"
+  },
+  {
+    "question": "who was the first man on the moon",
+    "answer": "Neil Armstrong was the first person to walk on the moon on July 20, 1969, during the Apollo 11 mission.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744022500000,
+    "usageCount": 0,
+    "hash": "75ffacb44631",
+    "source": "user"
+  },
+  {
+    "question": "what is machine learning",
+    "answer": "Machine learning is a subset of artificial intelligence that allows systems to learn from data, improve over time, and make decisions without being explicitly programmed. Examples include recommendation systems and self-driving cars.",
+    "tags": [
+      "technology",
+      "science"
+    ],
+    "lastUsed": 1744022600000,
+    "usageCount": 0,
+    "hash": "48596bf3ddae",
+    "source": "user"
+  },
+  {
+    "question": "who was Nikola Tesla",
+    "answer": "Nikola Tesla was a Serbian-American inventor and electrical engineer known for his contributions to the development of alternating current (AC) electrical systems and wireless communication.",
+    "tags": [
+      "history",
+      "technology"
+    ],
+    "lastUsed": 1744022700000,
+    "usageCount": 0,
+    "hash": "faaff34bcbb3",
+    "source": "user"
+  },
+  {
+    "question": "what is the theory of relativity",
+    "answer": "Albert Einstein’s theory of relativity consists of two theories: special relativity and general relativity. Special relativity explains the relationship between space and time, while general relativity explains gravity as the warping of space-time by mass and energy.",
+    "tags": [
+      "science",
+      "physics"
+    ],
+    "lastUsed": 1744022800000,
+    "usageCount": 0,
+    "hash": "ee31b9bd69dd",
+    "source": "user"
+  },
+  {
+    "question": "what is quantum computing",
+    "answer": "Quantum computing is an area of computer science that uses quantum-mechanical phenomena, such as superposition and entanglement, to perform computation. It has the potential to solve problems that are currently intractable for classical computers.",
+    "tags": [
+      "technology",
+      "science"
+    ],
+    "lastUsed": 1744022900000,
+    "usageCount": 0,
+    "hash": "e79bfc43c65d",
+    "source": "user"
+  },
+  {
+    "question": "what is the internet of things (IoT)",
+    "answer": "The Internet of Things (IoT) refers to the network of physical devices, vehicles, appliances, and other objects embedded with sensors, software, and connectivity, allowing them to collect and exchange data.",
+    "tags": [
+      "technology"
+    ],
+    "lastUsed": 1744023000000,
+    "usageCount": 0,
+    "hash": "e815fcf5c643",
+    "source": "user"
+  },
+  {
+    "question": "what is cryptocurrency",
+    "answer": "Cryptocurrency is a type of digital or virtual currency that uses cryptography for security. It operates independently of a central authority and is typically decentralized, with Bitcoin being the first and most well-known cryptocurrency.",
+    "tags": [
+      "finance",
+      "technology"
+    ],
+    "lastUsed": 1744023100000,
+    "usageCount": 0,
+    "hash": "4eec65bd1ccf",
+    "source": "user"
+  },
+  {
+    "question": "what is climate change",
+    "answer": "Climate change refers to significant, long-term changes in the global climate. It is largely driven by human activities, such as burning fossil fuels, deforestation, and industrial processes, which increase levels of greenhouse gases in the atmosphere.",
+    "tags": [
+      "science",
+      "environment"
+    ],
+    "lastUsed": 1744023200000,
+    "usageCount": 0,
+    "hash": "8670ca7084b5",
+    "source": "user"
+  },
+  {
+    "question": "what is artificial intelligence",
+    "answer": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn. This can include tasks like problem-solving, decision-making, language translation, and vision processing.",
+    "tags": [
+      "technology",
+      "science"
+    ],
+    "lastUsed": 1744023300000,
+    "usageCount": 0,
+    "hash": "f58e67864f50",
+    "source": "user"
+  },
+  {
+    "question": "what is neural networks",
+    "answer": "Neural networks are a class of machine learning algorithms inspired by the structure and function of the brain. They consist of layers of interconnected nodes (or neurons) that process input data and learn patterns through training.",
+    "tags": [
+      "technology",
+      "AI"
+    ],
+    "lastUsed": 1744023400000,
+    "usageCount": 0,
+    "hash": "845248f86c1e",
+    "source": "user"
+  },
+  {
+    "question": "what is the Hubble Space Telescope",
+    "answer": "The Hubble Space Telescope is a large, space-based observatory that has provided invaluable images and data about the universe, helping astronomers study galaxies, black holes, and other celestial phenomena.",
+    "tags": [
+      "science",
+      "space"
+    ],
+    "lastUsed": 1744023500000,
+    "usageCount": 0,
+    "hash": "201f9a672544",
+    "source": "user"
+  },
+  {
+    "question": "what is the Big Bang Theory",
+    "answer": "The Big Bang Theory is the leading explanation about how the universe began. It states that the universe was once in an extremely hot, dense state and began expanding around 13.8 billion years ago, eventually forming galaxies, stars, and planets.",
+    "tags": [
+      "science",
+      "space"
+    ],
+    "lastUsed": 1744023600000,
+    "usageCount": 0,
+    "hash": "1367f1c6b03c",
+    "source": "user"
+  },
+  {
+    "question": "what is evolution",
+    "answer": "Evolution is the process by which populations of organisms change over generations due to variations in traits that affect survival and reproduction. Natural selection drives this process, as organisms with beneficial traits are more likely to reproduce.",
+    "tags": [
+      "biology",
+      "science"
+    ],
+    "lastUsed": 1744023700000,
+    "usageCount": 0,
+    "hash": "9c2e43a41339",
+    "source": "user"
+  },
+  {
+    "question": "who was Marie Curie",
+    "answer": "Marie Curie was a Polish-born physicist and chemist who was the first woman to win a Nobel Prize. She is known for her pioneering work on radioactivity and for discovering the elements radium and polonium.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744023800000,
+    "usageCount": 0,
+    "hash": "da7186521761",
+    "source": "user"
+  },
+  {
+    "question": "what is a black hole",
+    "answer": "A black hole is a region of space where the gravitational pull is so strong that nothing, not even light, can escape. Black holes are formed when massive stars collapse under their own gravity.",
+    "tags": [
+      "science",
+      "space"
+    ],
+    "lastUsed": 1744024000000,
+    "usageCount": 0,
+    "hash": "0f20300fd69d",
+    "source": "user"
+  },
+  {
+    "question": "what is the greenhouse effect",
+    "answer": "The greenhouse effect is a natural process where certain gases in Earth's atmosphere trap heat, keeping the planet warm enough to support life. However, human activities like burning fossil fuels have enhanced this effect, contributing to global warming.",
+    "tags": [
+      "science",
+      "environment"
+    ],
+    "lastUsed": 1744024100000,
+    "usageCount": 0,
+    "hash": "a278e3356077",
+    "source": "user"
+  },
+  {
+    "question": "what is democracy",
+    "answer": "Democracy is a form of government where power is vested in the people, who rule either directly or through elected representatives. It is characterized by free and fair elections, protection of human rights, and the rule of law.",
+    "tags": [
+      "politics"
+    ],
+    "lastUsed": 1744024200000,
+    "usageCount": 0,
+    "hash": "237d9fb0edf4",
+    "source": "user"
+  },
+  {
+    "question": "who was William Shakespeare",
+    "answer": "William Shakespeare was an English playwright, poet, and actor who lived from 1564 to 1616. He is widely regarded as one of the greatest writers in the English language and is known for works like *Romeo and Juliet*, *Hamlet*, and *Macbeth*.",
+    "tags": [
+      "history",
+      "arts"
+    ],
+    "lastUsed": 1744024300000,
+    "usageCount": 0,
+    "hash": "dc255510c48b",
+    "source": "user"
+  },
+  {
+    "question": "what is the Theory of Evolution",
+    "answer": "The Theory of Evolution, developed by Charles Darwin, posits that species evolve over time through the process of natural selection. Organisms with advantageous traits are more likely to survive and reproduce, passing those traits to future generations.",
+    "tags": [
+      "science",
+      "biology"
+    ],
+    "lastUsed": 1744024400000,
+    "usageCount": 0,
+    "hash": "4e81c4ecfd81",
+    "source": "user"
+  },
+  {
+    "question": "what is the structure of an atom",
+    "answer": "An atom consists of a nucleus made up of protons and neutrons, with electrons orbiting around it. The protons are positively charged, the electrons are negatively charged, and neutrons have no charge.",
+    "tags": [
+      "science",
+      "physics"
+    ],
+    "lastUsed": 1744024500000,
+    "usageCount": 0,
+    "hash": "550792991c9c",
+    "source": "user"
+  },
+  {
+    "question": "who was Leonardo da Vinci",
+    "answer": "Leonardo da Vinci was an Italian Renaissance polymath known for his work as a painter, scientist, and engineer. He is famous for paintings such as the *Mona Lisa* and *The Last Supper*, and for his numerous inventions and studies of anatomy and flight.",
+    "tags": [
+      "history",
+      "arts"
+    ],
+    "lastUsed": 1744024600000,
+    "usageCount": 0,
+    "hash": "e3fc7cc7f9bc",
+    "source": "user"
+  },
+  {
+    "question": "what is the formula for the area of a circle",
+    "answer": "The formula for the area of a circle is A = πr², where r is the radius of the circle and π is approximately 3.14159.",
+    "tags": [
+      "math",
+      "geometry"
+    ],
+    "lastUsed": 1744024700000,
+    "usageCount": 0,
+    "hash": "26b325bbb276",
+    "source": "user"
+  },
+  {
+    "question": "what is the Fibonacci sequence",
+    "answer": "The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, typically starting with 0 and 1. The sequence is: 0, 1, 1, 2, 3, 5, 8, 13, 21, and so on.",
+    "tags": [
+      "math",
+      "sequence"
+    ],
+    "lastUsed": 1744024800000,
+    "usageCount": 0,
+    "hash": "048e1c550d95",
+    "source": "user"
+  },
+  {
+    "question": "what is the human genome",
+    "answer": "The human genome is the complete set of genetic information found in humans. It consists of 23 pairs of chromosomes, which contain genes made up of DNA. This genetic material controls everything from growth and development to physical traits and disease susceptibility.",
+    "tags": [
+      "biology",
+      "science"
+    ],
+    "lastUsed": 1744024900000,
+    "usageCount": 0,
+    "hash": "b0e89a0e6b73",
+    "source": "user"
+  },
+  {
+    "question": "who was Isaac Newton",
+    "answer": "Isaac Newton was an English mathematician, astronomer, and physicist who is widely recognized as one of the most influential scientists of all time. He formulated the laws of motion and universal gravitation and made key contributions to calculus.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744025000000,
+    "usageCount": 0,
+    "hash": "12e033bd99c1",
+    "source": "user"
+  },
+  {
+    "question": "what is blockchain",
+    "answer": "Blockchain is a decentralized digital ledger that records transactions across many computers in a way that makes it difficult or impossible to alter or hack the system. It is most commonly associated with cryptocurrencies like Bitcoin.",
+    "tags": [
+      "technology",
+      "finance"
+    ],
+    "lastUsed": 1744025100000,
+    "usageCount": 0,
+    "hash": "429378adf349",
+    "source": "user"
+  },
+  {
+    "question": "what is a species",
+    "answer": "A species is a group of organisms that can interbreed and produce fertile offspring in natural conditions. Species are the basic unit of classification in biology and are characterized by shared traits and genetic similarities.",
+    "tags": [
+      "biology",
+      "science"
+    ],
+    "lastUsed": 1744025200000,
+    "usageCount": 0,
+    "hash": "fa84f77f997d",
+    "source": "user"
+  },
+  {
+    "question": "what is the solar system",
+    "answer": "The solar system consists of the Sun and the objects bound to it by gravity, including eight planets (like Earth), their moons, dwarf planets (like Pluto), and other small objects like asteroids and comets.",
+    "tags": [
+      "science",
+      "space"
+    ],
+    "lastUsed": 1744025300000,
+    "usageCount": 0,
+    "hash": "66b7d3d9cbfa",
+    "source": "user"
+  },
+  {
+    "question": "what is the speed of sound",
+    "answer": "The speed of sound in air at room temperature is approximately 343 meters per second (1,235 kilometers per hour or 767 miles per hour).",
+    "tags": [
+      "science",
+      "physics"
+    ],
+    "lastUsed": 1744025400000,
+    "usageCount": 0,
+    "hash": "f50f2528e5d1",
+    "source": "user"
+  },
+  {
+    "question": "what is the law of supply and demand",
+    "answer": "The law of supply and demand states that the price of a good or service is determined by the availability of the good (supply) and the desire for the good (demand). When demand exceeds supply, prices tend to rise.",
+    "tags": [
+      "economics"
+    ],
+    "lastUsed": 1744025500000,
+    "usageCount": 0,
+    "hash": "c55cd57e0a14",
+    "source": "user"
+  },
+  {
+    "question": "what is the process of photosynthesis",
+    "answer": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy, typically from the Sun, into chemical energy stored in glucose. It involves the absorption of sunlight by chlorophyll, which converts carbon dioxide and water into oxygen and glucose.",
+    "tags": [
+      "science",
+      "biology"
+    ],
+    "lastUsed": 1744025600000,
+    "usageCount": 0,
+    "hash": "60de03e0e333",
+    "source": "user"
+  },
+  {
+    "question": "who was Thomas Edison",
+    "answer": "Thomas Edison was an American inventor and businessman who held over 1,000 patents. He is best known for inventing the phonograph, the motion picture camera, and the practical electric light bulb.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744025900000,
+    "usageCount": 0,
+    "hash": "e8555282e5d0",
+    "source": "user"
+  },
+  {
+    "question": "what is the mitochondria",
+    "answer": "Mitochondria are organelles in eukaryotic cells responsible for generating the cell’s energy through cellular respiration. They are often referred to as the powerhouse of the cell.",
+    "tags": [
+      "biology",
+      "science"
+    ],
+    "lastUsed": 1744026000000,
+    "usageCount": 0,
+    "hash": "6cb1244dc8f8",
+    "source": "user"
+  },
+  {
+    "question": "what is the concept of supply chain management",
+    "answer": "Supply chain management involves the oversight and coordination of activities that move goods and services from raw materials to final delivery to consumers. It includes logistics, procurement, inventory management, and production planning.",
+    "tags": [
+      "business",
+      "management"
+    ],
+    "lastUsed": 1744026100000,
+    "usageCount": 0,
+    "hash": "cd66fe317980",
+    "source": "user"
+  },
+  {
+    "question": "what is the Eiffel Tower",
+    "answer": "The Eiffel Tower is a wrought-iron lattice tower in Paris, France, designed by Gustave Eiffel. It is one of the most recognizable landmarks in the world and was initially constructed for the 1889 Exposition Universelle (World's Fair).",
+    "tags": [
+      "history",
+      "landmarks"
+    ],
+    "lastUsed": 1744026200000,
+    "usageCount": 0,
+    "hash": "9566e1ee04ff",
+    "source": "user"
+  },
+  {
+    "question": "what is the Cold War",
+    "answer": "The Cold War was a period of geopolitical tension between the Soviet Union and its allies and the United States and its allies, from the mid-1940s to the early 1990s. It was marked by political, military, and ideological rivalry but did not result in direct warfare between the superpowers.",
+    "tags": [
+      "history",
+      "politics"
+    ],
+    "lastUsed": 1744026300000,
+    "usageCount": 0,
+    "hash": "b946cbb435b3",
+    "source": "user"
+  },
+  {
+    "question": "what is the difference between weather and climate",
+    "answer": "Weather refers to the short-term atmospheric conditions in a specific place at a given time, including temperature, precipitation, and wind. Climate refers to the long-term patterns and averages of weather in a region over extended periods, typically decades or centuries.",
+    "tags": [
+      "science",
+      "environment"
+    ],
+    "lastUsed": 1744026400000,
+    "usageCount": 0,
+    "hash": "5a1c46aee8d2",
+    "source": "user"
+  },
+  {
+    "question": "what is a democracy",
+    "answer": "Democracy is a form of government in which the power to make decisions is vested in the people, who can directly or indirectly participate in decision-making through elected representatives. Key features include free elections, rule of law, and human rights.",
+    "tags": [
+      "politics"
+    ],
+    "lastUsed": 1744026500000,
+    "usageCount": 0,
+    "hash": "e3dd8737eb49",
+    "source": "user"
+  },
+  {
+    "question": "what is a computer virus",
+    "answer": "A computer virus is a type of malicious software program designed to spread from one computer to another. It can damage or disrupt a computer's operation, steal data, or even control the system remotely.",
+    "tags": [
+      "technology",
+      "cybersecurity"
+    ],
+    "lastUsed": 1744026600000,
+    "usageCount": 0,
+    "hash": "5968c517a760",
+    "source": "user"
+  },
+  {
+    "question": "who was Marie Antoinette",
+    "answer": "Marie Antoinette was the last queen of France before the French Revolution. She was married to King Louis XVI, and she became infamous for her lavish lifestyle during a period of widespread poverty in France.",
+    "tags": [
+      "history",
+      "monarchy"
+    ],
+    "lastUsed": 1744026700000,
+    "usageCount": 0,
+    "hash": "f7e2344eec60",
+    "source": "user"
+  },
+  {
+    "question": "what is the difference between a planet and a star",
+    "answer": "A planet is a celestial body that orbits a star and does not emit its own light. A star is a massive ball of gas that generates energy through nuclear fusion and emits light and heat, like our Sun.",
+    "tags": [
+      "science",
+      "space"
+    ],
+    "lastUsed": 1744026800000,
+    "usageCount": 0,
+    "hash": "fc705e039646",
+    "source": "user"
+  },
+  {
+    "question": "what is the water cycle",
+    "answer": "The water cycle, or hydrological cycle, describes the continuous movement of water on, above, and below the Earth's surface. It involves processes like evaporation, condensation, precipitation, and infiltration.",
+    "tags": [
+      "science",
+      "environment"
+    ],
+    "lastUsed": 1744027000000,
+    "usageCount": 0,
+    "hash": "33f39bf6e7e2",
+    "source": "user"
+  },
+  {
+    "question": "what is the significance of the Magna Carta",
+    "answer": "The Magna Carta, signed in 1215, was a document that limited the powers of the English king and established certain legal rights for subjects. It is considered a foundational text for constitutional law.",
+    "tags": [
+      "history",
+      "law"
+    ],
+    "lastUsed": 1744027100000,
+    "usageCount": 0,
+    "hash": "22b268e9ec35",
+    "source": "user"
+  },
+  {
+    "question": "who was Winston Churchill",
+    "answer": "Winston Churchill was a British politician, military leader, and Prime Minister of the United Kingdom during World War II. He is best known for his leadership during the war and his speeches that inspired the British people to stand firm against Nazi Germany.",
+    "tags": [
+      "history",
+      "politics"
+    ],
+    "lastUsed": 1744027200000,
+    "usageCount": 0,
+    "hash": "398a3f7a8742",
+    "source": "user"
+  },
+  {
+    "question": "what is the concept of artificial neural networks",
+    "answer": "Artificial neural networks are algorithms modeled after the human brain that are used in machine learning. They consist of layers of interconnected nodes (neurons) that process input data and learn from it, typically through a process of training using large datasets.",
+    "tags": [
+      "technology",
+      "AI"
+    ],
+    "lastUsed": 1744027300000,
+    "usageCount": 0,
+    "hash": "4f0ceb108866",
+    "source": "user"
+  },
+  {
+    "question": "what is the human respiratory system",
+    "answer": "The human respiratory system is responsible for taking in oxygen and expelling carbon dioxide. It includes organs such as the lungs, trachea, and diaphragm, and involves the processes of inhalation, gas exchange, and exhalation.",
+    "tags": [
+      "biology",
+      "science"
+    ],
+    "lastUsed": 1744027400000,
+    "usageCount": 0,
+    "hash": "4d07a0d704e8",
+    "source": "user"
+  },
+  {
+    "question": "who was Sigmund Freud",
+    "answer": "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis. He developed theories about the unconscious mind, dreams, and the role of repressed memories in shaping behavior.",
+    "tags": [
+      "history",
+      "psychology"
+    ],
+    "lastUsed": 1744027500000,
+    "usageCount": 0,
+    "hash": "4a966be3b5a1",
+    "source": "user"
+  },
+  {
+    "question": "what is DNA",
+    "answer": "DNA (deoxyribonucleic acid) is the molecule that carries the genetic instructions used in the growth, development, functioning, and reproduction of all living organisms. It is composed of two strands that coil into a double helix structure.",
+    "tags": [
+      "biology",
+      "science"
+    ],
+    "lastUsed": 1744027600000,
+    "usageCount": 0,
+    "hash": "36121ac8b655",
+    "source": "user"
+  },
+  {
+    "question": "what is the difference between a mammal and a reptile",
+    "answer": "Mammals are warm-blooded vertebrates that give live birth (except for monotremes), have hair or fur, and produce milk for their young. Reptiles are cold-blooded vertebrates with scaly skin, and they lay eggs (with some exceptions).",
+    "tags": [
+      "biology",
+      "science"
+    ],
+    "lastUsed": 1744027700000,
+    "usageCount": 0,
+    "hash": "c55095cd74ce",
+    "source": "user"
+  },
+  {
+    "question": "what is a database",
+    "answer": "A database is a structured collection of data that is stored and accessed electronically. Databases are used in various applications, such as websites, business applications, and more, to organize and manage data efficiently.",
+    "tags": [
+      "technology",
+      "IT"
+    ],
+    "lastUsed": 1744027800000,
+    "usageCount": 0,
+    "hash": "e3185eeec5d3",
+    "source": "user"
+  },
+  {
+    "question": "who was Pablo Picasso",
+    "answer": "Pablo Picasso was a Spanish painter, sculptor, and one of the most influential artists of the 20th century. He is best known for co-founding the Cubist movement and for works like *Guernica* and *Les Demoiselles d'Avignon*.",
+    "tags": [
+      "history",
+      "art"
+    ],
+    "lastUsed": 1744027900000,
+    "usageCount": 0,
+    "hash": "97456e5e584a",
+    "source": "user"
+  },
+  {
+    "question": "what is an ecosystem",
+    "answer": "An ecosystem is a community of living organisms interacting with their physical environment, including plants, animals, and microorganisms, as well as elements like water, air, and soil. It is a complex, interdependent system.",
+    "tags": [
+      "science",
+      "environment"
+    ],
+    "lastUsed": 1744028000000,
+    "usageCount": 0,
+    "hash": "ce92bad5b395",
+    "source": "user"
+  },
+  {
+    "question": "who was Charles Darwin",
+    "answer": "Charles Darwin was an English naturalist and biologist who developed the theory of evolution by natural selection. His groundbreaking book, *On the Origin of Species*, proposed that species evolve over time due to the survival and reproduction of organisms with advantageous traits.",
+    "tags": [
+      "history",
+      "science"
+    ],
+    "lastUsed": 1744028100000,
+    "usageCount": 0,
+    "hash": "58ecdc5a3075",
+    "source": "user"
+  },
+  {
+    "question": "what is the purpose of a CPU",
+    "answer": "The CPU (Central Processing Unit) is the primary component of a computer that performs most of the processing inside the system. It executes instructions from programs, performs calculations, and manages data flow between various components of the computer.",
+    "tags": [
+      "technology",
+      "IT"
+    ],
+    "lastUsed": 1744028200000,
+    "usageCount": 0,
+    "hash": "2252486ebf66",
+    "source": "user"
+  },
+  {
+    "question": "what is the difference between a democracy and a dictatorship",
+    "answer": "A democracy is a form of government where citizens participate in decision-making through elections and have rights and freedoms. A dictatorship is a form of government where one individual or a small group holds absolute power, and political opposition is often suppressed.",
+    "tags": [
+      "politics"
+    ],
+    "lastUsed": 1744028300000,
+    "usageCount": 0,
+    "hash": "e56339cf211e",
+    "source": "user"
+  },
+  {
+    "question": "what is dark matter",
+    "answer": "Dark matter is a form of matter that does not emit light or energy, making it invisible to current instruments. It makes up about 27% of the universe and is detected through its gravitational effects on galaxies.",
+    "tags": [
+      "science",
+      "space"
+    ],
+    "lastUsed": 1744028500000,
+    "usageCount": 0,
+    "hash": "82b60a3dbb49",
+    "source": "user"
+  },
+  {
+    "question": "who invented the internet",
+    "answer": "The internet evolved from ARPANET, a project funded by the U.S. Department of Defense in the 1960s. Key contributors include Vint Cerf and Bob Kahn (TCP/IP) and Tim Berners-Lee (World Wide Web).",
+    "tags": [
+      "technology",
+      "history"
+    ],
+    "lastUsed": 1744028600000,
+    "usageCount": 0,
+    "hash": "ef2670bd0a16",
+    "source": "user"
+  },
+  {
+    "question": "what is CRISPR",
+    "answer": "CRISPR is a gene-editing technology that allows scientists to modify DNA with high precision. It has applications in medicine, agriculture, and could potentially cure genetic diseases.",
+    "tags": [
+      "science",
+      "biotech"
+    ],
+    "lastUsed": 1744028700000,
+    "usageCount": 0,
+    "hash": "48ec2ac2e049",
+    "source": "user"
+  },
+  {
+    "question": "what is the Fermi Paradox",
+    "answer": "The Fermi Paradox questions why we haven’t found extraterrestrial life despite the high probability of its existence. Possible explanations include the rarity of life or advanced civilizations self-destructing.",
+    "tags": [
+      "science",
+      "philosophy"
+    ],
+    "lastUsed": 1744028800000,
+    "usageCount": 0,
+    "hash": "4823e0da3cb9",
+    "source": "user"
+  },
+  {
+    "question": "what is the placebo effect",
+    "answer": "The placebo effect occurs when a person experiences real improvements after receiving a fake treatment (like a sugar pill), highlighting the mind’s influence on the body.",
+    "tags": [
+      "science",
+      "psychology"
+    ],
+    "lastUsed": 1744028900000,
+    "usageCount": 0,
+    "hash": "5b05877288c2",
+    "source": "user"
+  },
+  {
+    "question": "who was Hypatia",
+    "answer": "Hypatia was a 4th-century Greek mathematician, astronomer, and philosopher in Alexandria. She was one of the first recorded female scientists and was murdered for her intellectual influence.",
+    "tags": [
+      "history",
+      "women"
+    ],
+    "lastUsed": 1744029000000,
+    "usageCount": 0,
+    "hash": "1e728e04ffcd",
+    "source": "user"
+  },
+  {
+    "question": "what was the Silk Road",
+    "answer": "The Silk Road was a network of trade routes connecting Asia, Europe, and Africa from 130 BCE to 1453 CE. It facilitated cultural exchange (e.g., paper, gunpowder) beyond just silk.",
+    "tags": [
+      "history",
+      "economics"
+    ],
+    "lastUsed": 1744029100000,
+    "usageCount": 0,
+    "hash": "91fc30841c35",
+    "source": "user"
+  },
+  {
+    "question": "who was Mansa Musa",
+    "answer": "Mansa Musa, the 14th-century ruler of Mali, is considered the richest person in history. His pilgrimage to Mecca destabilized economies due to his extravagant gold spending.",
+    "tags": [
+      "history",
+      "Africa"
+    ],
+    "lastUsed": 1744029200000,
+    "usageCount": 0,
+    "hash": "c596f2042a51",
+    "source": "user"
+  },
+  {
+    "question": "what caused the Bronze Age collapse",
+    "answer": "The Bronze Age collapse (1200 BCE) was likely caused by a \"perfect storm\" of factors: climate change, invasions (Sea Peoples), and trade disruptions. Entire civilizations (e.g., Mycenaeans) fell.",
+    "tags": [
+      "history",
+      "archaeology"
+    ],
+    "lastUsed": 1744029300000,
+    "usageCount": 0,
+    "hash": "3ecb8a720ce8",
+    "source": "user"
+  },
+  {
+    "question": "is AI sentient",
+    "answer": "Current AI lacks consciousness but simulates understanding. Ethical debates focus on whether future AI could achieve sentience and what rights it might deserve.",
+    "tags": [
+      "philosophy",
+      "AI"
+    ],
+    "lastUsed": 1744029400000,
+    "usageCount": 0,
+    "hash": "ab44c6f79fcd",
+    "source": "user"
+  },
+  {
+    "question": "should we colonize Mars",
+    "answer": "Pro: Ensures human survival if Earth becomes uninhabitable. Con: Extremely costly; may divert resources from solving Earth’s problems.",
+    "tags": [
+      "science",
+      "ethics"
+    ],
+    "lastUsed": 1744029500000,
+    "usageCount": 0,
+    "hash": "5a10171d479e",
+    "source": "user"
+  },
+  {
+    "question": "is free will an illusion",
+    "answer": "Neuroscience suggests decisions are made subconsciously before we’re aware of them, but philosophers argue conscious reasoning can override impulses.",
+    "tags": [
+      "philosophy",
+      "science"
+    ],
+    "lastUsed": 1744029600000,
+    "usageCount": 0,
+    "hash": "99bb6cbc24d4",
+    "source": "user"
+  },
+  {
+    "question": "lateral thinking: how to measure the height of a building with a barometer",
+    "answer": "Alternative solutions: 1) Drop barometer, time fall. 2) Use it as a pendulum. 3) Trade it to the building’s architect for blueprints.",
+    "tags": [
+      "creativity",
+      "problem-solving"
+    ],
+    "lastUsed": 1744029700000,
+    "usageCount": 0,
+    "hash": "272d6db7d5ab",
+    "source": "user"
+  },
+  {
+    "question": "invent a new holiday",
+    "answer": "\"Neural Networking Day\" – Celebrate by teaching someone a new skill and sharing knowledge across cultures, like a mental potluck.",
+    "tags": [
+      "creativity",
+      "culture"
+    ],
+    "lastUsed": 1744029800000,
+    "usageCount": 0,
+    "hash": "fd3bbb423888",
+    "source": "user"
+  },
+  {
+    "question": "how to apologize effectively",
+    "answer": "1) Be specific. 2) Acknowledge harm. 3) Don’t make excuses. 4) Offer repair. Example: \"I hurt you by [action]. I was wrong. How can I make it right?\"",
+    "tags": [
+      "communication",
+      "emotional-intelligence"
+    ],
+    "lastUsed": 1744029900000,
+    "usageCount": 0,
+    "hash": "07850a31d3d6",
+    "source": "user"
+  },
+  {
+    "question": "how to negotiate salary",
+    "answer": "1) Research market rates. 2) Highlight unique value. 3) Frame requests collaboratively: \"Based on my [skills], I propose [X]. What do you think?\"",
+    "tags": [
+      "career",
+      "advice"
+    ],
+    "lastUsed": 1744030000000,
+    "usageCount": 0,
+    "hash": "6065c0148c67",
+    "source": "user"
+  },
+  {
+    "question": "describe the color blue to a blind person",
+    "answer": "\"Blue feels like a calm ocean wave—cool, smooth, and expansive. It tastes like a fresh blueberry, slightly sweet and tangy.\"",
+    "tags": [
+      "sensory",
+      "creativity"
+    ],
+    "lastUsed": 1744030100000,
+    "usageCount": 0,
+    "hash": "da9fcafab711",
+    "source": "user"
+  },
+  {
+    "question": "explain a sunset to an AI",
+    "answer": "\"A sunset is Earth’s rotation filtering sunlight through atmospheric particles, scattering shorter wavelengths (blue) and leaving longer ones (red/orange). Humans associate it with beauty and endings.\"",
+    "tags": [
+      "science",
+      "poetry"
+    ],
+    "lastUsed": 1744030200000,
+    "usageCount": 0,
+    "hash": "b2b6b650d043",
+    "source": "user"
+  },
+  {
+    "question": "what is love",
+    "answer": "I’m still learning about human emotions. Could you describe what love means to you?",
+    "tags": [
+      "learning",
+      "gap"
+    ],
+    "lastUsed": 1744017551683,
+    "usageCount": 1,
+    "hash": "982e186fb6ab",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "how do I fix a leaky faucet",
+    "answer": "I’ll need more details—is it a dripping handle or pipe? Meanwhile, check if the washer needs replacement (common issue).",
+    "tags": [
+      "learning",
+      "gap"
+    ],
+    "lastUsed": 1744030400000,
+    "usageCount": 0,
+    "hash": "a5d06303fd4f",
+    "source": "user"
+  },
+  {
+    "question": "lilly",
+    "answer": "Lily is a type of flowering plant from the genus Lilium in the family Liliaceae. The flower is known for its large, showy blossoms and comes in various colors, such as white, pink, yellow, and red.  Symbolism: The lily flower symbolizes purity, renewal, and beauty in various cultures. It is often associated with important themes like motherhood, fertility, and devotion.",
+    "tags": [],
+    "lastUsed": 1744017387609,
+    "usageCount": 1,
+    "hash": "bfa746fcad83",
+    "source": "user",
+    "confidence": 1
+  },
+  {
+    "question": "wow",
+    "answer": "Glad you found it interesting!",
+    "tags": [],
+    "lastUsed": 1744017459865,
+    "usageCount": 0,
+    "hash": "4748bc436db2",
+    "source": "user"
+  },
+  {
+    "question": "who is eintain",
+    "answer": "Albert Einstein (1879–1955) was a German-born theoretical physicist who is best known for developing the theory of relativity, one of the two pillars of modern physics (the other being quantum mechanics). He is widely regarded as one of the most influential scientists of all time.",
+    "tags": [],
+    "lastUsed": 1744017750837,
+    "usageCount": 0,
+    "hash": "c36bb77ffdb3",
+    "source": "user"
+  },
+  {
+    "question": "who is Einstein",
+    "answer": "Albert Einstein (1879–1955) was a German-born theoretical physicist who is best known for developing the theory of relativity, one of the two pillars of modern physics (the other being quantum mechanics). He is widely regarded as one of the most influential scientists of all time.",
+    "tags": [],
+    "lastUsed": 1744017750838,
+    "usageCount": 0,
+    "hash": "04e24d51aa66",
+    "source": "user"
+  },
+  {
+    "question": "hi lilly",
+    "answer": "Hey there! How’s it going? What’s on your mind today?",
+    "tags": [],
+    "lastUsed": 1744018732879,
+    "usageCount": 0,
+    "hash": "1aaea61ded4e",
+    "source": "user"
+  },
+  {
+    "question": "hello lilly",
+    "answer": "Hey there! How’s it going? What’s on your mind today?",
+    "tags": [],
+    "lastUsed": 1744018742935,
+    "usageCount": 0,
+    "hash": "63dea30e0137",
+    "source": "user"
+  }
+]
